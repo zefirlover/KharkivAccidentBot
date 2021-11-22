@@ -19,18 +19,6 @@ def info(update, context):
     update.message.reply_text('В Харкові було 0 днів без дорожньо-транспортної пригоди')
 
 
-# def bot_start(update, context):
-#     input_start = input()
-#     if input_start == 'bot_start_text':
-#         update.message.reply_text('Бота запущено')
-
-
-# def bot_finish(update, context):
-#     input_finish = input()
-#     if input_finish == 'bot_finish_text':
-#         update.message.reply_text('Бот тимчасово всьо')
-
-
 def error(update, context):
     """Log Errors caused by Updates."""
     logger.warning('Update "%s" caused error "%s"', update, context.error)
